@@ -1,0 +1,148 @@
+                                                                    @font-face {
+                                                                    font-family: "Lexend Deca";
+                                                                    src: url("font/Lexend_Deca/lexenddeca-regular-webfont.woff")format('woff');
+                                                                    src: url("font/Lexend_Deca/lexenddeca-regular-webfont.woff2")format('woff2');
+                                                                    font-weight: normal;
+                                                                    font-size: normal;
+                                                                }
+                                                                
+                                                                @font-face {
+                                                                    font-family: "Inter";
+                                                                    src: url("font/Inter/inter-variablefont_slntwght-webfont.woff")format('woff');
+                                                                    src: url("font/Inter/inter-variablefont_slntwght-webfont.woff2")format('woff2');
+                                                                    font-weight: normal;
+                                                                    font-size: normal;
+                                                                }
+                                                                
+                                                                @font-face {
+                                                                    font-family: 'Kaushan Script';
+                                                                    src: url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+                                                                    font-weight: normal;
+                                                                    font-size: normal;
+                                                                }
+                                                                
+                                                                * {
+                                                                    margin: 0;
+                                                                    padding: 0;
+                                                                    box-sizing: border-box;
+                                                                    color: white;
+                                                                    font-size: 20px;
+                                                                }
+                                                                
+                                                                a {
+                                                                    text-decoration: none;
+                                                                }
+                                                                
+                                                                body {
+                                                                    font-family: "Inter", sans-serif;
+                                                                    background-color: hsl(233, 47%, 7%);
+                                                                    display: flex;
+                                                                    flex-direction: column;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    min-height: 100vh;
+                                                                }
+                                                                
+                                                                .container {
+                                                                    display: grid;
+                                                                    grid-template-columns: 1fr 1fr;
+                                                                    max-width: 1200px;
+                                                                    background-color: hsl(244, 38%, 16%);
+                                                                    border-radius: 20px;
+                                                                    margin-bottom: 20px;
+                                                                }
+                                                                
+                                                                .block-left {
+                                                                    padding: 70px 100px 70px 70px;
+                                                                    border-radius: 20px;
+                                                                }
+                                                                
+                                                                .title,
+                                                                .insights {
+                                                                    font-size: 40px;
+                                                                }
+                                                                
+                                                                .insights {
+                                                                    color: hsl(277, 64%, 61%);
+                                                                }
+                                                                
+                                                                .text {
+                                                                    font-family: 'Kaushan Script', cursive;
+                                                                    font-size: 40px;
+                                                                    padding: 30px 0px 30px 0px;
+                                                                    line-height: 30px;
+                                                                    color: hsla(0, 0%, 100%, 0.75);
+                                                                    opacity: 0.8;
+                                                                }
+                                                                
+                                                                .stats {
+                                                                    display: flex;
+                                                                    justify-content: space-between;
+                                                                    list-style: none;
+                                                                }
+                                                                
+                                                                .stat-element {
+                                                                    font-weight: bold;
+                                                                    font-size: 25px;
+                                                                    margin-top: 30px;
+                                                                }
+                                                                
+                                                                .social {
+                                                                    height: 40px;
+                                                                    width: 40px;
+                                                                }
+                                                                
+                                                                .stat-heading {
+                                                                    display: block;
+                                                                    text-transform: uppercase;
+                                                                    font-weight: normal;
+                                                                    font-size: 10px;
+                                                                    color: hsla(0, 0%, 100%, 0.6);
+                                                                    opacity: 0.8;
+                                                                }
+                                                                
+                                                                .block-right {
+                                                                    background: url("img2.jpg");
+                                                                    background-size: cover;
+                                                                    background-position: center;
+                                                                }
+                                                                
+                                                                .author {
+                                                                    margin-top: 10px;
+                                                                }
+                                                                
+                                                                @media screen and (max-width: 800px) {
+                                                                    .container {
+                                                                        display: flex;
+                                                                        flex-direction: column-reverse;
+                                                                        margin: 20px;
+                                                                        text-align: center;
+                                                                        border-radius: 7px;
+                                                                    }
+                                                                    .block-left {
+                                                                        padding: 40px 30px 30px 30px;
+                                                                    }
+                                                                    .block-right {
+                                                                        background-image: url("img2.jpg");
+                                                                        height: 250px;
+                                                                        border-radius: 10px 10px 0px 0px;
+                                                                    }
+                                                                    .title,
+                                                                    .insights {
+                                                                        font-size: 28px;
+                                                                    }
+                                                                    .text {
+                                                                        font-family: 'Kaushan Script';
+                                                                        font-size: 16px;
+                                                                        line-height: 25px;
+                                                                        padding: 15px 0px 15px 0px;
+                                                                    }
+                                                                    .stats {
+                                                                        display: flex;
+                                                                        flex-direction: column;
+                                                                        line-height: 28px;
+                                                                    }
+                                                                    .attribution {
+                                                                        font-size: 10px;
+                                                                        margin: 0px 10px 20px 10px;
+                                                                    }
